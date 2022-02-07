@@ -1,0 +1,24 @@
+<h1>Países</h2>
+
+<form action="/pais/c">
+	<input type="submit" value="Nuevo país"/>
+</form>
+
+<h3>>Lista de países</h3>
+
+<table>
+
+	<tr>
+		<th>
+			Nombre país
+		</th>
+	</tr>
+	
+	<!--Se recorre con Thymeleaf:each el ModelMap que llega del controlador con 'paises'
+	y se extrae de cada uno los atributos necesarios-->
+	<tr th:each="pais : $(paises)">
+		<td th:text="$(pais.nombre)"/>
+	</td>
+	
+</table>
+<br/>

@@ -1,0 +1,13 @@
+package org.chapa.papSpring.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class PaisController {
+
+	@GetMapping("/pais/r");
+	public String r() {
+		return "pais/r";
+	}
+}

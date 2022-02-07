@@ -1,0 +1,45 @@
+package org.chapa.papSpring.controller;
+
+import java.util.List;
+
+import org.chapa.papSpring.entities.Persona;
+import org.chapa.papSpring.repository.PersonaRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+public class PersonaController {
+	@Autowired
+	private PersonaRepository personaRepository;
+
+	@GetMapping("/pais/r")
+	public String r(
+			ModelMap m			
+			) {
+		List<Persona> paises = personaRepository.findAll();
+		
+		m.put("paises", paises);
+		return "pais/r";
+	}
+	
+	
+	@GetMapping("/pais/c")
+	public String c() {
+		return "pais/c";
+	}
+	
+	
+	@PostMapping("/pais/c")
+	public String cPost(@RequestParam("nombre") String nombre) { 
+		String returnLocation = "";
+		try {
+			paisRepository.save(new Pais(nombre));
+			returnLocation = "redirect:/pais/r";
+		} catch (Exception e) {
+			returnLocation = "redirect:/errorDisplay?msg=El país " + nombre + " ya existe.";
+		}
+		return returnLocation;
+	}
+}

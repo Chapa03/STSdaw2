@@ -1,0 +1,19 @@
+<h1>Países</h2>
+
+<form action="/pais/c">
+	<input type="submit" value="Nuevo país"/>
+</form>
+
+<h3>>Lista de países</h3>
+
+<table>
+	<td>
+		<th>
+			Nombre país
+		</th>
+		</td>
+		
+		</td>
+	</tr>
+</table>
+<br/>

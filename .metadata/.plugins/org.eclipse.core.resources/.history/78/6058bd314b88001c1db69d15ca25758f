@@ -1,0 +1,23 @@
+package org.chapa.papSpring.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
+public class Pais {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String nombre;
+	
+	public Pais() {
+		this.nombre = "Atlantida";
+	}
+	
+	public Pais (String nombre) {
+		this.nombre = nombre;
+	}
+
+}

@@ -1,0 +1,6 @@
+<h1>Países</h2>
+
+<form action="/pais/c">
+	<input type="submit" value="Nuevo país"/>
+</form>
+<br/>

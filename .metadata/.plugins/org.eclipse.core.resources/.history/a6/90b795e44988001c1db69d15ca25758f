@@ -1,0 +1,9 @@
+package org.chapa.papSpring.entities;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Pais {
+	private String nombre;
+	
+}

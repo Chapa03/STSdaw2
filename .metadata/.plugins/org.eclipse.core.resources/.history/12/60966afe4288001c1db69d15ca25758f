@@ -1,0 +1,9 @@
+<h1>PAP 2022</h1>
+
+<h3>Escoge acción:</h3>
+
+<form action="/">
+	<input type="submit" value="País"/>
+	<input type="submit" value="Persona"/>
+	<input type="submit" value="Afición"/>
+</form>

@@ -1,0 +1,8 @@
+<h1>Nuevo País</h2>
+
+<form action="/pais/c">
+	<label for="idNombre">Nombre del país</label>
+	<input type="submit" name="nombre" />
+	<input type="submit" value="Nuevo país"/>
+</form>
+<br/>

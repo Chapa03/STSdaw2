@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PapSpringApplication {
 
 	public static void main(String[] args) {
+		//MAIN que deja la ejecución del aplicación en manos de Spring
 		SpringApplication.run(PapSpringApplication.class, args);
 	}
 
