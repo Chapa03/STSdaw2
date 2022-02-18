@@ -1,22 +1,41 @@
-<h1>Aficiones</h2>
+<div class="container">
+	<div class="row m-3">
+		<h2 class="display-4"><i class="bi bi-joystick"></i> Aficiones</h2>
+	</div>
+</div>
 
-<form action="/aficion/c">
-	<input type="submit" value="Nueva aficion"/>
-</form>
-
-<h3>Lista de aficiones</h3>
-
-<table>
-
-	<tr>
-		<th>
-			Descripción de la afición
-		</th>
-	</tr>
+<div class="container bg-primary rounded p-4">
 	
-	<tr th:each="aficion:${aficiones}">
-		<td th:text="${aficion.descripcion}"/>
-	</tr>
+	<div class="row m-3">
+		<h3 class="display-5 text-light">Lista de aficiones</h3>
+	</div>
 	
-</table>
-<br/>
+	<table class="table table-hover">
+	<thead>
+	  
+		    <tr class="table-active">
+				<th scope="col" class="text-light">
+					Descripción de la afición
+				</th>
+				<th>
+					<div class="d-flex justify-content-end">
+						<form action="/aficion/c">
+							<input type="submit" class="btn btn-success btn-sm" value="Nueva afición"/>
+						</form>
+					</div>
+				</th>
+		    </tr>
+	    
+	  </thead>
+	  <tbody>
+	  
+		    <tr>
+				<tr th:each="aficion:${aficiones}" class="text-light">
+					<td th:text="${aficion.descripcion}" colspan="2"/>
+				</tr>
+		    </tr>
+	    
+		</tbody>
+	</table>
+	<br/>
+</div>

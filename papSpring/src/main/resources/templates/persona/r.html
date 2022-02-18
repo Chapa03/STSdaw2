@@ -1,22 +1,41 @@
-<h1>Personas</h2>
+<div class="container">
+	<div class="row m-3">
+		<h2 class="display-4"><i class="bi bi-people"></i> Personas</h2>
+	</div>
+</div>
 
-<form action="/persona/c">
-	<input type="submit" value="Nueva persona"/>
-</form>
-
-<h3>Lista de personas</h3>
-
-<table>
-
-	<tr>
-		<th>
-			Nombre persona
-		</th>
-	</tr>
+<div class="container bg-primary rounded p-4">
 	
-	<tr th:each="persona:${personas}">
-		<td th:text="${persona.nombre}"/>
-	</tr>
+	<div class="row m-3">
+		<h3 class="display-5 text-light">Lista de personas</h3>
+	</div>
 	
-</table>
-<br/>
+	<table class="table table-hover">
+	<thead>
+	  
+		    <tr class="table-active">
+				<th scope="col" class="text-light">
+					Nombre de la persona
+				</th>
+				<th>
+					<div class="d-flex justify-content-end">
+						<form action="/persona/c">
+							<input type="submit" class="btn btn-success btn-sm" value="Nueva persona"/>
+						</form>
+					</div>
+				</th>
+		    </tr>
+	    
+	  </thead>
+	  <tbody>
+	  
+		    <tr>
+				<tr th:each="persona:${personas}" class="text-light">
+					<td th:text="${persona.nombre}" colspan="2"/>
+				</tr>
+		    </tr>
+	    
+		</tbody>
+	</table>
+	<br/>
+</div>

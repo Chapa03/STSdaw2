@@ -1,0 +1,12 @@
+<div="container">
+	<h1>Nueva afición</h2>
+	
+	<form action="/aficion/c" method="POST">
+		<label for="idDescripcion">Descripción de la afición</label>
+		<input type="text" name="descripcion" id="idDescripcion"/>
+		<br/>
+		
+		<input type="submit" value="Nueva afición"/>
+	</form>
+	<br/>
+</div>

@@ -1548,3 +1548,1011 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 14:15:34.097
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GRiDmkxB => OK
+!SESSION 2022-02-09 15:33:45.029 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/chapa/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/chapa/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-02-09 15:33:54.747
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-09 15:33:54.747
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d12f065,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57fc6759,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-09 15:33:54.747
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33a7331,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7aef21bb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2022-02-09 15:33:59.790
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-09 15:33:59.791
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@75715a14,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14a4ba91,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2022-02-09 15:34:43.481
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:41.092
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:41.093
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@38c1d89f[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=558)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:41.094
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:41.111
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.184
+!MESSAGE Boot LS startup time from start to initialized: 1086ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.224
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CdhYreLmisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.225
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.226
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.226
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.226
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CdhYreLm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.226
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.235
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.235
+!MESSAGE buffering callback sts4.classpath.CdhYreLm papSpring false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.236
+!MESSAGE executing callback sts4.classpath.CdhYreLm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 16:06:42.410
+!MESSAGE executing callback sts4.classpath.CdhYreLm SUCCESS [done]
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2022-02-09 16:43:41.400
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10649)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:8239)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4773)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4850)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler.applyTextRegionCollection(TMPresentationReconciler.java:673)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler.colorize(TMPresentationReconciler.java:572)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$InternalListener.textChanged(TMPresentationReconciler.java:310)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2785)
+	at org.eclipse.jface.text.TextViewer.fireRedrawChanged(TextViewer.java:4995)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5035)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5003)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5085)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5059)
+	at org.eclipse.jface.text.TextViewer$RewriteTarget.setRedraw(TextViewer.java:1004)
+	at org.eclipse.jface.text.TextViewer$DocumentRewriteSessionListener.documentRewriteSessionChanged(TextViewer.java:1410)
+	at org.eclipse.jface.text.AbstractDocument.fireRewriteSessionChanged(AbstractDocument.java:1432)
+	at org.eclipse.jface.text.AbstractDocument.stopRewriteSession(AbstractDocument.java:1513)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.stopRewriteSession(SynchronizableDocument.java:108)
+	at org.eclipse.jface.text.TextViewer$FindReplaceTarget.setReplaceAllMode(TextViewer.java:963)
+	at org.eclipse.ui.texteditor.FindReplaceTarget.setReplaceAllMode(FindReplaceTarget.java:191)
+	at org.eclipse.ui.texteditor.FindReplaceDialog.replaceAll(FindReplaceDialog.java:1596)
+	at org.eclipse.ui.texteditor.FindReplaceDialog$1ReplaceAllRunnable.run(FindReplaceDialog.java:1378)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.FindReplaceDialog.performReplaceAll(FindReplaceDialog.java:1385)
+	at org.eclipse.ui.texteditor.FindReplaceDialog$5.widgetSelected(FindReplaceDialog.java:385)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4351)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3927)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2022-02-09 16:47:48.790
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10649)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:8239)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4773)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4850)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler.applyTextRegionCollection(TMPresentationReconciler.java:673)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler.colorize(TMPresentationReconciler.java:572)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$InternalListener.textChanged(TMPresentationReconciler.java:310)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2785)
+	at org.eclipse.jface.text.TextViewer.fireRedrawChanged(TextViewer.java:4995)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5035)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5003)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5085)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5059)
+	at org.eclipse.jface.text.TextViewer$RewriteTarget.setRedraw(TextViewer.java:1004)
+	at org.eclipse.jface.text.TextViewer$DocumentRewriteSessionListener.documentRewriteSessionChanged(TextViewer.java:1410)
+	at org.eclipse.jface.text.AbstractDocument.fireRewriteSessionChanged(AbstractDocument.java:1432)
+	at org.eclipse.jface.text.AbstractDocument.stopRewriteSession(AbstractDocument.java:1513)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.stopRewriteSession(SynchronizableDocument.java:108)
+	at org.eclipse.jface.text.TextViewer$FindReplaceTarget.setReplaceAllMode(TextViewer.java:963)
+	at org.eclipse.ui.texteditor.FindReplaceTarget.setReplaceAllMode(FindReplaceTarget.java:191)
+	at org.eclipse.ui.texteditor.FindReplaceDialog.replaceAll(FindReplaceDialog.java:1596)
+	at org.eclipse.ui.texteditor.FindReplaceDialog$1ReplaceAllRunnable.run(FindReplaceDialog.java:1378)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.FindReplaceDialog.performReplaceAll(FindReplaceDialog.java:1385)
+	at org.eclipse.ui.texteditor.FindReplaceDialog$5.widgetSelected(FindReplaceDialog.java:385)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4351)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3927)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-02-09 18:56:37.273
+!MESSAGE [Info]	ESLint server running in node v16.9.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-02-09 18:56:37.358
+!MESSAGE [Info]	No ES Libary found for file: file:///Users/chapa/eclipse/workspaceSTS/papSpring/src/main/resources/static/js/jquery.min.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-02-09 18:56:37.918
+!MESSAGE [Error]	[tsserver] env: node: No such file or directory
+
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-02-09 19:41:48.186
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2022-02-09 20:00:32.696
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10649)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:8239)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4773)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4850)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler.applyTextRegionCollection(TMPresentationReconciler.java:673)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler.colorize(TMPresentationReconciler.java:572)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$InternalListener.textChanged(TMPresentationReconciler.java:310)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2785)
+	at org.eclipse.jface.text.TextViewer.fireRedrawChanged(TextViewer.java:4995)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5035)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5003)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5085)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5059)
+	at org.eclipse.jface.text.TextViewer$RewriteTarget.setRedraw(TextViewer.java:1004)
+	at org.eclipse.jface.text.TextViewer$DocumentRewriteSessionListener.documentRewriteSessionChanged(TextViewer.java:1410)
+	at org.eclipse.jface.text.AbstractDocument.fireRewriteSessionChanged(AbstractDocument.java:1432)
+	at org.eclipse.jface.text.AbstractDocument.stopRewriteSession(AbstractDocument.java:1513)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.stopRewriteSession(SynchronizableDocument.java:108)
+	at org.eclipse.jface.text.TextViewer$FindReplaceTarget.setReplaceAllMode(TextViewer.java:963)
+	at org.eclipse.ui.texteditor.FindReplaceTarget.setReplaceAllMode(FindReplaceTarget.java:191)
+	at org.eclipse.ui.texteditor.FindReplaceDialog.replaceAll(FindReplaceDialog.java:1596)
+	at org.eclipse.ui.texteditor.FindReplaceDialog$1ReplaceAllRunnable.run(FindReplaceDialog.java:1378)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.FindReplaceDialog.performReplaceAll(FindReplaceDialog.java:1385)
+	at org.eclipse.ui.texteditor.FindReplaceDialog$5.widgetSelected(FindReplaceDialog.java:385)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4351)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3927)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2022-02-09 20:00:46.293
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10649)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:8239)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4773)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4850)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler.applyTextRegionCollection(TMPresentationReconciler.java:673)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler.colorize(TMPresentationReconciler.java:572)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$InternalListener.textChanged(TMPresentationReconciler.java:310)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2785)
+	at org.eclipse.jface.text.TextViewer.fireRedrawChanged(TextViewer.java:4995)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5035)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5003)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5085)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5059)
+	at org.eclipse.jface.text.TextViewer$RewriteTarget.setRedraw(TextViewer.java:1004)
+	at org.eclipse.jface.text.TextViewer$DocumentRewriteSessionListener.documentRewriteSessionChanged(TextViewer.java:1410)
+	at org.eclipse.jface.text.AbstractDocument.fireRewriteSessionChanged(AbstractDocument.java:1432)
+	at org.eclipse.jface.text.AbstractDocument.stopRewriteSession(AbstractDocument.java:1513)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.stopRewriteSession(SynchronizableDocument.java:108)
+	at org.eclipse.jface.text.TextViewer$FindReplaceTarget.setReplaceAllMode(TextViewer.java:963)
+	at org.eclipse.ui.texteditor.FindReplaceTarget.setReplaceAllMode(FindReplaceTarget.java:191)
+	at org.eclipse.ui.texteditor.FindReplaceDialog.replaceAll(FindReplaceDialog.java:1596)
+	at org.eclipse.ui.texteditor.FindReplaceDialog$1ReplaceAllRunnable.run(FindReplaceDialog.java:1378)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.FindReplaceDialog.performReplaceAll(FindReplaceDialog.java:1385)
+	at org.eclipse.ui.texteditor.FindReplaceDialog$5.widgetSelected(FindReplaceDialog.java:385)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4351)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3927)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 20:29:23.374
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CdhYreLm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 20:29:23.376
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CdhYreLm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 20:29:23.376
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-09 20:29:23.376
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CdhYreLm => OK
+!SESSION 2022-02-10 08:31:57.567 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/chapa/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/chapa/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-02-10 08:32:04.766
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 08:32:04.766
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57f89680,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70bc9070,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 08:32:04.766
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d202dc4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71e409f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2022-02-10 08:32:08.453
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 08:32:08.453
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c1fe350,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2bb7229e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:48.748
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:48.749
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@435da752[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=558)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:48.750
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:48.768
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.206
+!MESSAGE Boot LS startup time from start to initialized: 1451ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.259
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rSqdvySfisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.260
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.261
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.261
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.261
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rSqdvySf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.261
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.268
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.269
+!MESSAGE buffering callback sts4.classpath.rSqdvySf papSpring false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.269
+!MESSAGE executing callback sts4.classpath.rSqdvySf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 08:32:50.521
+!MESSAGE executing callback sts4.classpath.rSqdvySf SUCCESS [done]
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2022-02-10 08:42:20.326
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10649)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:8239)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4773)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4850)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler.applyTextRegionCollection(TMPresentationReconciler.java:673)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler.colorize(TMPresentationReconciler.java:572)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$InternalListener.textChanged(TMPresentationReconciler.java:310)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2785)
+	at org.eclipse.jface.text.TextViewer.fireRedrawChanged(TextViewer.java:4995)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5035)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5003)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5085)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5059)
+	at org.eclipse.jface.text.TextViewer$RewriteTarget.setRedraw(TextViewer.java:1004)
+	at org.eclipse.jface.text.TextViewer$DocumentRewriteSessionListener.documentRewriteSessionChanged(TextViewer.java:1410)
+	at org.eclipse.jface.text.AbstractDocument.fireRewriteSessionChanged(AbstractDocument.java:1432)
+	at org.eclipse.jface.text.AbstractDocument.stopRewriteSession(AbstractDocument.java:1513)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.stopRewriteSession(SynchronizableDocument.java:108)
+	at org.eclipse.jface.text.TextViewer.shift(TextViewer.java:4355)
+	at org.eclipse.jface.text.TextViewer.doOperation(TextViewer.java:3960)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:1064)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1466)
+	at org.eclipse.ui.texteditor.ShiftAction.lambda$0(ShiftAction.java:87)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ShiftAction.run(ShiftAction.java:87)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$ActivationCodeTrigger.verifyKey(AbstractTextEditor.java:785)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6248)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5932)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1559)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1555)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:522)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:1085)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6405)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:59)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:607)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6237)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2160)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2487)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6357)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5601)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5744)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3924)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-02-10 08:54:35.437
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 823, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-02-10 08:54:35.437
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 823, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-02-10 08:54:35.468
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 823, state before: 10 after: 4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 10:47:11.846
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rSqdvySf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 10:47:11.847
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.rSqdvySf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 10:47:11.847
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 10:47:11.847
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rSqdvySf => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-02-10 10:47:12.012
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-02-10 13:16:10.352 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/chapa/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/chapa/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-02-10 13:16:15.380
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 13:16:15.380
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71e409f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14c18a6a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 13:16:15.380
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6aa792,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c78f456,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2022-02-10 13:17:58.209
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 13:17:58.209
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47dc0cc5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17ec391a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:05.002
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:05.002
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@681f5a1e[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=558)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:05.004
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:05.024
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.522
+!MESSAGE Boot LS startup time from start to initialized: 1513ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.581
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.OhYWJmvuisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.582
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.583
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.583
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.583
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.OhYWJmvu => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.583
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.590
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.590
+!MESSAGE buffering callback sts4.classpath.OhYWJmvu papSpring false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.591
+!MESSAGE executing callback sts4.classpath.OhYWJmvu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 13:18:06.822
+!MESSAGE executing callback sts4.classpath.OhYWJmvu SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 14:16:20.673
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OhYWJmvu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 14:16:20.675
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.OhYWJmvu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 14:16:20.675
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 14:16:20.675
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OhYWJmvu => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-02-10 14:16:20.839
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-02-10 16:05:32.604 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/chapa/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/chapa/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-02-10 16:05:43.335
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 16:05:43.336
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70bc9070,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d202dc4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 16:05:43.336
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71e409f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14c18a6a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2022-02-10 16:05:48.687
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-10 16:05:48.687
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@efbc6a1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19544898,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:10.161
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:10.161
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@45bb5b2d[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=558)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:10.163
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:10.191
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:15.660
+!MESSAGE Boot LS startup time from start to initialized: 5491ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:15.949
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JtyrkkmEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:15.955
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:15.966
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:15.968
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:15.968
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JtyrkkmE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:15.970
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:15.989
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:15.991
+!MESSAGE buffering callback sts4.classpath.JtyrkkmE papSpring false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:15.992
+!MESSAGE executing callback sts4.classpath.JtyrkkmE 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 16:07:17.052
+!MESSAGE executing callback sts4.classpath.JtyrkkmE SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-02-10 21:59:01.152
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 00:03:55.792
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JtyrkkmE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 00:03:55.793
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JtyrkkmE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 00:03:55.794
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 00:03:55.794
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JtyrkkmE => OK
+!SESSION 2022-02-11 08:21:53.064 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/chapa/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/chapa/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-02-11 08:22:35.632
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-11 08:22:35.632
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d202dc4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71e409f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-11 08:22:35.632
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14c18a6a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6aa792,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2022-02-11 08:22:38.033
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-11 08:22:38.033
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ec3b5dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@629bee3b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:34.511
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:34.512
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@56b5de49[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=558)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:34.513
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:34.524
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:35.971
+!MESSAGE Boot LS startup time from start to initialized: 1456ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:36.025
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AaIAHVBnisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:36.026
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:36.027
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:36.027
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:36.028
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:36.028
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AaIAHVBn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:36.030
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:36.030
+!MESSAGE buffering callback sts4.classpath.AaIAHVBn papSpring false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:36.030
+!MESSAGE executing callback sts4.classpath.AaIAHVBn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 08:50:36.272
+!MESSAGE executing callback sts4.classpath.AaIAHVBn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 10:11:29.242
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AaIAHVBn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 10:11:29.244
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.AaIAHVBn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 10:11:29.244
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-11 10:11:29.245
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AaIAHVBn => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-02-11 10:11:29.533
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

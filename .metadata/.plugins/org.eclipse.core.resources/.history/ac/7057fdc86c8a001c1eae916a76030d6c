@@ -1,0 +1,41 @@
+<div class="container">
+	<h1>Nueva persona</h2>
+	
+	<form action="/persona/c" method="POST">
+		<label for="idNombre">Nombre de la persona</label>
+		<input type="text" name="nombre" id="idNombre"/>
+		<br/>
+		
+		<input type="submit" value="Nueva persona"/>
+	</form>
+	<br/>
+</div>
+
+
+
+<div class="container">
+	<div class="row m-3">
+		<h2 class="display-4 text-info">Persona</h2>
+	</div>
+</div>	
+
+<div class="container bg-secondary text-light rounded p-4">
+	
+	<div class="row m-3">
+		<h3 class="display-5">Crear nueva persona</h3>
+	</div>
+	
+	<form action="/persona/c" method="POST">
+		<div class="mb-3">
+			<label for="idAficion" class="form-label">Nombre de la nueva persona</label>
+			<input type="text" class="form-control" name="descripcion" id="idAficion" placeholder="John Connor">
+		</div>
+		
+		<div class="d-flex justify-content-end m-3">
+			<input type="submit" class="btn btn-primary m-2" value="Dar de alta"/>
+			<a href="/persona/r" class="btn btn-danger m-2">Cancelar</a>
+		</div>
+		
+	</form>
+	
+</div>

@@ -1,0 +1,20 @@
+<h1>PAP - Chapa</h1>
+
+<img src="/img/logo.png" width="400"></img>
+
+<h3>Escoge acción:</h3>
+
+<form action="/pais/r">
+	<input type="submit" value="País"/>
+</form>
+<br/>
+
+<form action="/aficion/r">
+	<input type="submit" value="Afición"/>
+</form>
+<br/>
+
+<form action="/persona/r">
+	<input type="submit" value="Persona"/>
+</form>
+<br/>

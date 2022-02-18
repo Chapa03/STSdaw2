@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.chapa.papSpring.entities.Aficion;
 import org.chapa.papSpring.repository.AficionRepository;
-import org.chapa.papSpring.repository.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -18,19 +17,19 @@ public class AficionController {
 	private AficionRepository aficionRepository;
 
 	@GetMapping("/aficion/r")
-	public String r(
-			ModelMap m			
-			) {
+	public String r(ModelMap m) {
 		List<Aficion> aficiones = aficionRepository.findAll();
 		
 		m.put("aficiones", aficiones);
-		return "aficion/r";
+		m.put("view", "aficion/r");
+		return "_t/frame";
 	}
 	
 	
 	@GetMapping("/aficion/c")
-	public String c() {
-		return "aficion/c";
+	public String c(ModelMap m) {
+		m.put("view", "aficion/c");
+		return "_t/frame";
 	}
 	
 	

@@ -23,13 +23,15 @@ public class PersonaController {
 		List<Persona> personas = personaRepository.findAll();
 		
 		m.put("personas", personas);
-		return "persona/r";
+		m.put("view", "/persona/r");
+		return "_t/frame";
 	}
 	
 	
 	@GetMapping("/persona/c")
-	public String c() {
-		return "persona/c";
+	public String c(ModelMap m) {
+		m.put("view", "/persona/c");
+		return "_t/frame";
 	}
 	
 	

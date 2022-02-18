@@ -1,0 +1,24 @@
+<div class="container">
+	<h1>Personas</h2>
+	
+	<form action="/persona/c">
+		<input type="submit" value="Nueva persona"/>
+	</form>
+	
+	<h3>Lista de personas</h3>
+	
+	<table>
+	
+		<tr>
+			<th>
+				Nombre persona
+			</th>
+		</tr>
+		
+		<tr th:each="persona:${personas}">
+			<td th:text="${persona.nombre}"/>
+		</tr>
+		
+	</table>
+	<br/>
+</div>

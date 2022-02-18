@@ -1,0 +1,12 @@
+<div class="container">
+	<h1>Nuevo País</h2>
+	
+	<form action="/pais/c" method="POST">
+		<label for="idNombre">Nombre del país</label>
+		<input type="text" name="nombre" id="idNombre"/>
+		<br/>
+		
+		<input type="submit" value="Nuevo país"/>
+	</form>
+	<br/>
+</div>

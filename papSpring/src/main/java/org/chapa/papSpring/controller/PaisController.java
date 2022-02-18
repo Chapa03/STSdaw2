@@ -28,13 +28,15 @@ public class PaisController {
 		/* ModelMap con países que Spring pondrá a disposición de la
 			vista que despliegue (pais/r en este caso) */
 		m.put("paises", paises);
-		return "pais/r";
+		m.put("view", "/pais/r");
+		return "_t/frame";
 	}
 	
 	
 	@GetMapping("/pais/c")
-	public String c() {
-		return "pais/c";
+	public String c(ModelMap m) {
+		m.put("view", "/pais/c");
+		return "_t/frame";
 	}
 	
 	

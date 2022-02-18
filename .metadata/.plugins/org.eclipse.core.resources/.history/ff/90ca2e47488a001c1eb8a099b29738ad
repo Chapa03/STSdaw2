@@ -1,0 +1,21 @@
+<div class="container">
+	<div class="row m-3">
+		<h2 class="display-4 text-info">Países</h2>
+	</div>
+</div>	
+
+<div class="container bg-secondary text-light rounded p-4">
+	
+	<div class="row m-3">
+		<h3 class="display-5">Crear nuevo país</h3>
+	</div>
+	
+	<form action="/pais/c" method="POST">
+		<label for="idNombre">Nombre del país</label>
+		<input type="text" name="nombre" id="idNombre"/>
+		<br/>
+		
+		<input type="submit" value="Nuevo país"/>
+	</form>
+	<br/>
+</div>

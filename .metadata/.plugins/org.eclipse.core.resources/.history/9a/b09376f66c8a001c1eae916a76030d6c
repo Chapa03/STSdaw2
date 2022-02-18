@@ -1,0 +1,70 @@
+<div class="container">
+	<h1>Personas</h2>
+	
+	<form action="/persona/c">
+		<input type="submit" value="Nueva persona"/>
+	</form>
+	
+	<h3>Lista de personas</h3>
+	
+	<table>
+	
+		<tr>
+			<th>
+				Nombre persona
+			</th>
+		</tr>
+		
+		<tr th:each="persona:${personas}">
+			<td th:text="${persona.nombre}"/>
+		</tr>
+		
+	</table>
+	<br/>
+</div>
+
+
+<div class="container">
+	<div class="row m-3">
+		<h2 class="display-4 text-info">Personas</h2>
+	</div>
+</div>
+
+<div class="container bg-secondary text-light rounded p-4">
+	
+	<div class="row m-3">
+		<h3 class="display-5">Lista de personas</h3>
+	</div>
+	
+	<table class="table">
+	<thead>
+	  
+		    <tr>
+				<th scope="col" class="text-light">
+					Nombre de la persona
+				</th>
+				<th>
+					<div class="d-flex justify-content-end">
+						<form action="/persona/c">
+							<input type="submit" class="btn btn-primary" value="Nueva persona"/>
+						</form>
+					</div>
+				</th>
+		    </tr>
+	    
+	  </thead>
+	  <tbody>
+	  
+		    <tr>
+		    	<!-- scope="row" en un th indica el indice de la fila -->
+				<!--Se recorre con Thymeleaf:each el ModelMap que llega del controlador con 'paises'
+				y se extrae de cada uno los atributos necesarios-->
+				<tr th:each="persona:${personas}">
+					<td th:text="${persona.nombre}" colspan="2"/>
+				</tr>
+		    </tr>
+	    
+		</tbody>
+	</table>
+	<br/>
+</div>

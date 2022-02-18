@@ -13,6 +13,7 @@ public class ErrorController {
 			ModelMap m
 			) {
 		m.put("mensajeError", mensajeError);
-		return "error/error";
+		m.put("view", "error/error");
+		return "_t/frame";
 	}
 }

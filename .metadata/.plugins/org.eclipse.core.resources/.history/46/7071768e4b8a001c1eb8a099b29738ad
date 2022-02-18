@@ -1,0 +1,24 @@
+<div class="container">
+	<div class="row m-3">
+		<h2 class="display-4 text-info">Países</h2>
+	</div>
+</div>	
+
+<div class="container bg-secondary text-light rounded p-4">
+	
+	<div class="row m-3">
+		<h3 class="display-5">Crear nuevo país</h3>
+	</div>
+	
+	<form action="/pais/c" method="POST">
+		<div class="mb-3">
+			<label for="idNombre" class="form-label">Nombre del nuevo país</label>
+			<input type="text" class="form-control" name="nombre" id="idNombre" placeholder="España">
+		</div>
+		
+		<a href="/pais/r" class="btn btn-danger">Candelar</a>
+		<input type="submit" class="btn btn-primary" value="Dar de alta"/>
+		
+	</form>
+	
+</div>

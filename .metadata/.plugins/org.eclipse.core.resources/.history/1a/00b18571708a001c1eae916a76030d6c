@@ -1,0 +1,29 @@
+<nav class="container navbar navbar-expand-sm bg-dark navbar-dark rounded my-3 text-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"><i class="bi bi-house-door"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Secciones
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-submenu" href="/pais/r">País</a>
+            	<ul>
+            		<li><a class="dropdown-item" href="/persona/r">Ver Personas</a></li>
+            		<li><a class="dropdown-item" href="/persona/r">Crear Personas</a></li>
+            	</ul>
+            </li>
+            <li><a class="dropdown-item" href="/persona/r">Ver Personas</a></li>
+            <li><a class="dropdown-item" href="/persona/r">Crear Personas</a></li>
+            <li><a class="dropdown-item" href="/aficion/r">Ver aficiones</a></li>
+            <li><a class="dropdown-item" href="/aficion/r">Crear aficiones</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

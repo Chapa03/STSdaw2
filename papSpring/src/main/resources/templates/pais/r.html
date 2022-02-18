@@ -1,24 +1,44 @@
-<h1>Países</h2>
+<div class="container">
+	<div class="row m-3">
+		<h2 class="display-4"><i class="bi bi-compass"></i> Países</h2>
+	</div>
+</div>
 
-<form action="/pais/c">
-	<input type="submit" value="Nuevo país"/>
-</form>
-
-<h3>Lista de países</h3>
-
-<table>
-
-	<tr>
-		<th>
-			Nombre país
-		</th>
-	</tr>
+<div class="container bg-primary rounded p-4">
 	
-	<!--Se recorre con Thymeleaf:each el ModelMap que llega del controlador con 'paises'
-	y se extrae de cada uno los atributos necesarios-->
-	<tr th:each="pais:${paises}">
-		<td th:text="${pais.nombre}"/>
-	</tr>
+	<div class="row m-3">
+		<h3 class="display-5 text-light">Lista de países</h3>
+	</div>
 	
-</table>
-<br/>
+	<table class="table table-hover">
+	<thead>
+	  
+		    <tr class="table-active">
+				<th scope="col" class="text-light">
+					Nombre del país
+				</th>
+				<th>
+					<div class="d-flex justify-content-end">
+						<form action="/pais/c">
+							<input type="submit" class="btn btn-success btn-sm" value="Nuevo país"/>
+						</form>
+					</div>
+				</th>
+		    </tr>
+	    
+	  </thead>
+	  <tbody>
+	  
+		    <tr>
+		    	<!-- scope="row" en un th indica el indice de la fila -->
+				<!--Se recorre con Thymeleaf:each el ModelMap que llega del controlador con 'paises'
+				y se extrae de cada uno los atributos necesarios-->
+				<tr th:each="pais:${paises}" class="text-light">
+					<td th:text="${pais.nombre}" colspan="2"/>
+				</tr>
+		    </tr>
+	    
+		</tbody>
+	</table>
+	<br/>
+</div>

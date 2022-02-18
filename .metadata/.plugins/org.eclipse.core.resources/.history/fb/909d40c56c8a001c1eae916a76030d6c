@@ -1,0 +1,12 @@
+<div class="container">
+	<h1>Nueva persona</h2>
+	
+	<form action="/persona/c" method="POST">
+		<label for="idNombre">Nombre de la persona</label>
+		<input type="text" name="nombre" id="idNombre"/>
+		<br/>
+		
+		<input type="submit" value="Nueva persona"/>
+	</form>
+	<br/>
+</div>

@@ -1,0 +1,38 @@
+<div> class="container">
+	<div class="row m-3">
+		<h1>Países</h2>
+	</div>
+</div>
+
+<div class="container bg-secondary text-light rounded p-4">
+	<form action="/pais/c">
+		<input type="submit" class="btn btn-primary" value="Nuevo país"/>
+	</form>
+	
+	<h3>Lista de países</h3>
+	
+	<table class="table">
+	<thead>
+	  
+		    <tr>
+				<th scope="col">
+					Nombre del país
+				</th>
+		    </tr>
+	    
+	  </thead>
+	  <tbody>
+	  
+		    <tr>
+		    	<!-- scope="row" en un th indica el indice de la fila -->
+				<!--Se recorre con Thymeleaf:each el ModelMap que llega del controlador con 'paises'
+				y se extrae de cada uno los atributos necesarios-->
+				<tr th:each="pais:${paises}">
+					<td th:text="${pais.nombre}"/>
+				</tr>
+		    </tr>
+	    
+		</tbody>
+	</table>
+	<br/>
+</div>
